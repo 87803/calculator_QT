@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>410</width>
+    <height>560</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="clearButton">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>300</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+                   QPushButton{
+                   background-color:rgba(100,225,100,80);
+                   border-style:outset;
+                   border-width:4px;
+                   border-radius:10px;
+                   border-color:rgba(255,255,255,30);
+                   font:bold 15px;
+                   color:rgba(0,0,0,150);
+                   padding:6px;
+                   }
+                  
+                   QPushButton:pressed{
+                   background-color:rgba(100,255,100,200);
+                   border-color:rgba(255,255,255,30);
+                   border-style:inset;
+                   color:rgba(0,0,0,100);
+				  font:bold 13px;
+                   }
+                 
+                   QPushButton:hover{
+                   background-color:rgba(100,255,100,100);
+                   border-color:rgba(255,255,255,200);
+                   color:rgba(0,0,0,200);
+                   }</string>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>100</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+                   QPushButton{
+                   background-color:rgba(100,225,100,80);
+                   border-style:outset;
+                   border-width:4px;
+                   border-radius:10px;
+                   border-color:rgba(255,255,255,30);
+                   font:bold 15px;
+                   color:rgba(0,0,0,150);
+                   padding:6px;
+                   }
+                  
+                   QPushButton:pressed{
+                   background-color:rgba(100,255,100,200);
+                   border-color:rgba(255,255,255,30);
+                   border-style:inset;
+                   color:rgba(0,0,0,100);
+				  font:bold 13px;
+                   }
+                 
+                   QPushButton:hover{
+                   background-color:rgba(100,255,100,100);
+                   border-color:rgba(255,255,255,200);
+                   color:rgba(0,0,0,200);
+                   }</string>
+    </property>
+    <property name="text">
+     <string>(</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>105</x>
+      <y>100</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+                   QPushButton{
+                   background-color:rgba(100,225,100,80);
+                   border-style:outset;
+                   border-width:4px;
+                   border-radius:10px;
+                   border-color:rgba(255,255,255,30);
+                   font:bold 15px;
+                   color:rgba(0,0,0,150);
+                   padding:6px;
+                   }
+                  
+                   QPushButton:pressed{
+                   background-color:rgba(100,255,100,200);
+                   border-color:rgba(255,255,255,30);
+                   border-style:inset;
+                   color:rgba(0,0,0,100);
+				  font:bold 13px;
+                   }
+                 
+                   QPushButton:hover{
+                   background-color:rgba(100,255,100,100);
+                   border-color:rgba(255,255,255,200);
+                   color:rgba(0,0,0,200);
+                   }</string>
+    </property>
+    <property name="text">
+     <string>)</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>205</x>
+      <y>100</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+                   QPushButton{
+                   background-color:rgba(100,225,100,80);
+                   border-style:outset;
+                   border-width:4px;
+                   border-radius:10px;
+                   border-color:rgba(255,255,255,30);
+                   font:bold 15px;
+                   color:rgba(0,0,0,150);
+                   padding:6px;
+                   }
+                  
+                   QPushButton:pressed{
+                   background-color:rgba(100,255,100,200);
+                   border-color:rgba(255,255,255,30);
+                   border-style:inset;
+                   color:rgba(0,0,0,100);
+				  font:bold 13px;
+                   }
+                 
+                   QPushButton:hover{
+                   background-color:rgba(100,255,100,100);
+                   border-color:rgba(255,255,255,200);
+                   color:rgba(0,0,0,200);
+                   }</string>
+    </property>
+    <property name="text">
+     <string>←</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="num7Button">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>150</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+                   QPushButton{
+                   background-color:rgba(100,225,100,80);
+                   border-style:outset;
+                   border-width:4px;
+                   border-radius:10px;
+                   border-color:rgba(255,255,255,30);
+                   font:bold 15px;
+                   color:rgba(0,0,0,150);
+                   padding:6px;
+                   }
+                  
+                   QPushButton:pressed{
+                   background-color:rgba(100,255,100,200);
+                   border-color:rgba(255,255,255,30);
+                   border-style:inset;
+                   color:rgba(0,0,0,100);
+				  font:bold 13px;
+                   }
+                 
+                   QPushButton:hover{
+                   background-color:rgba(100,255,100,100);
+                   border-color:rgba(255,255,255,200);
+                   color:rgba(0,0,0,200);
+                   }</string>
+    </property>
+    <property name="text">
+     <string>7</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="num8Button">
+    <property name="geometry">
+     <rect>
+      <x>105</x>
+      <y>150</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+                   QPushButton{
+                   background-color:rgba(100,225,100,80);
+                   border-style:outset;
+                   border-width:4px;
+                   border-radius:10px;
+                   border-color:rgba(255,255,255,30);
+                   font:bold 15px;
+                   color:rgba(0,0,0,150);
+                   padding:6px;
+                   }
+                  
+                   QPushButton:pressed{
+                   background-color:rgba(100,255,100,200);
+                   border-color:rgba(255,255,255,30);
+                   border-style:inset;
+                   color:rgba(0,0,0,100);
+				  font:bold 13px;
+                   }
+                 
+                   QPushButton:hover{
+                   background-color:rgba(100,255,100,100);
+                   border-color:rgba(255,255,255,200);
+                   color:rgba(0,0,0,200);
+                   }</string>
+    </property>
+    <property name="text">
+     <string>8</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="num9Button">
+    <property name="geometry">
+     <rect>
+      <x>205</x>
+      <y>150</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+                   QPushButton{
+                   background-color:rgba(100,225,100,80);
+                   border-style:outset;
+                   border-width:4px;
+                   border-radius:10px;
+                   border-color:rgba(255,255,255,30);
+                   font:bold 15px;
+                   color:rgba(0,0,0,150);
+                   padding:6px;
+                   }
+                  
+                   QPushButton:pressed{
+                   background-color:rgba(100,255,100,200);
+                   border-color:rgba(255,255,255,30);
+                   border-style:inset;
+                   color:rgba(0,0,0,100);
+				  font:bold 13px;
+                   }
+                 
+                   QPushButton:hover{
+                   background-color:rgba(100,255,100,100);
+                   border-color:rgba(255,255,255,200);
+                   color:rgba(0,0,0,200);
+                   }</string>
+    </property>
+    <property name="text">
+     <string>9</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="num4Button">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>200</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+                   QPushButton{
+                   background-color:rgba(100,225,100,80);
+                   border-style:outset;
+                   border-width:4px;
+                   border-radius:10px;
+                   border-color:rgba(255,255,255,30);
+                   font:bold 15px;
+                   color:rgba(0,0,0,150);
+                   padding:6px;
+                   }
+                  
+                   QPushButton:pressed{
+                   background-color:rgba(100,255,100,200);
+                   border-color:rgba(255,255,255,30);
+                   border-style:inset;
+                   color:rgba(0,0,0,100);
+				  font:bold 13px;
+                   }
+                 
+                   QPushButton:hover{
+                   background-color:rgba(100,255,100,100);
+                   border-color:rgba(255,255,255,200);
+                   color:rgba(0,0,0,200);
+                   }</string>
+    </property>
+    <property name="text">
+     <string>4</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="num5Button">
+    <property name="geometry">
+     <rect>
+      <x>105</x>
+      <y>200</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+                   QPushButton{
+                   background-color:rgba(100,225,100,80);
+                   border-style:outset;
+                   border-width:4px;
+                   border-radius:10px;
+                   border-color:rgba(255,255,255,30);
+                   font:bold 15px;
+                   color:rgba(0,0,0,150);
+                   padding:6px;
+                   }
+                  
+                   QPushButton:pressed{
+                   background-color:rgba(100,255,100,200);
+                   border-color:rgba(255,255,255,30);
+                   border-style:inset;
+                   color:rgba(0,0,0,100);
+				  font:bold 13px;
+                   }
+                 
+                   QPushButton:hover{
+                   background-color:rgba(100,255,100,100);
+                   border-color:rgba(255,255,255,200);
+                   color:rgba(0,0,0,200);
+                   }</string>
+    </property>
+    <property name="text">
+     <string>5</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="num6Button">
+    <property name="geometry">
+     <rect>
+      <x>205</x>
+      <y>200</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+                   QPushButton{
+                   background-color:rgba(100,225,100,80);
+                   border-style:outset;
+                   border-width:4px;
+                   border-radius:10px;
+                   border-color:rgba(255,255,255,30);
+                   font:bold 15px;
+                   color:rgba(0,0,0,150);
+                   padding:6px;
+                   }
+                  
+                   QPushButton:pressed{
+                   background-color:rgba(100,255,100,200);
+                   border-color:rgba(255,255,255,30);
+                   border-style:inset;
+                   color:rgba(0,0,0,100);
+				  font:bold 13px;
+                   }
+                 
+                   QPushButton:hover{
+                   background-color:rgba(100,255,100,100);
+                   border-color:rgba(255,255,255,200);
+                   color:rgba(0,0,0,200);
+                   }</string>
+    </property>
+    <property name="text">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>30</y>
+      <width>401</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="num1Button">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>250</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+                   QPushButton{
+                   background-color:rgba(100,225,100,80);
+                   border-style:outset;
+                   border-width:4px;
+                   border-radius:10px;
+                   border-color:rgba(255,255,255,30);
+                   font:bold 15px;
+                   color:rgba(0,0,0,150);
+                   padding:6px;
+                   }
+                  
+                   QPushButton:pressed{
+                   background-color:rgba(100,255,100,200);
+                   border-color:rgba(255,255,255,30);
+                   border-style:inset;
+                   color:rgba(0,0,0,100);
+				  font:bold 13px;
+                   }
+                 
+                   QPushButton:hover{
+                   background-color:rgba(100,255,100,100);
+                   border-color:rgba(255,255,255,200);
+                   color:rgba(0,0,0,200);
+                   }</string>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="num2Button">
+    <property name="geometry">
+     <rect>
+      <x>105</x>
+      <y>250</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+                   QPushButton{
+                   background-color:rgba(100,225,100,80);
+                   border-style:outset;
+                   border-width:4px;
+                   border-radius:10px;
+                   border-color:rgba(255,255,255,30);
+                   font:bold 15px;
+                   color:rgba(0,0,0,150);
+                   padding:6px;
+                   }
+                  
+                   QPushButton:pressed{
+                   background-color:rgba(100,255,100,200);
+                   border-color:rgba(255,255,255,30);
+                   border-style:inset;
+                   color:rgba(0,0,0,100);
+				  font:bold 13px;
+                   }
+                 
+                   QPushButton:hover{
+                   background-color:rgba(100,255,100,100);
+                   border-color:rgba(255,255,255,200);
+                   color:rgba(0,0,0,200);
+                   }</string>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="num3Button">
+    <property name="geometry">
+     <rect>
+      <x>205</x>
+      <y>250</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+                   QPushButton{
+                   background-color:rgba(100,225,100,80);
+                   border-style:outset;
+                   border-width:4px;
+                   border-radius:10px;
+                   border-color:rgba(255,255,255,30);
+                   font:bold 15px;
+                   color:rgba(0,0,0,150);
+                   padding:6px;
+                   }
+                  
+                   QPushButton:pressed{
+                   background-color:rgba(100,255,100,200);
+                   border-color:rgba(255,255,255,30);
+                   border-style:inset;
+                   color:rgba(0,0,0,100);
+				  font:bold 13px;
+                   }
+                 
+                   QPushButton:hover{
+                   background-color:rgba(100,255,100,100);
+                   border-color:rgba(255,255,255,200);
+                   color:rgba(0,0,0,200);
+                   }</string>
+    </property>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="num0Button">
+    <property name="geometry">
+     <rect>
+      <x>105</x>
+      <y>300</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+                   QPushButton{
+                   background-color:rgba(100,225,100,80);
+                   border-style:outset;
+                   border-width:4px;
+                   border-radius:10px;
+                   border-color:rgba(255,255,255,30);
+                   font:bold 15px;
+                   color:rgba(0,0,0,150);
+                   padding:6px;
+                   }
+                  
+                   QPushButton:pressed{
+                   background-color:rgba(100,255,100,200);
+                   border-color:rgba(255,255,255,30);
+                   border-style:inset;
+                   color:rgba(0,0,0,100);
+				  font:bold 13px;
+                   }
+                 
+                   QPushButton:hover{
+                   background-color:rgba(100,255,100,100);
+                   border-color:rgba(255,255,255,200);
+                   color:rgba(0,0,0,200);
+                   }</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_15">
+    <property name="geometry">
+     <rect>
+      <x>205</x>
+      <y>300</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+                   QPushButton{
+                   background-color:rgba(100,225,100,80);
+                   border-style:outset;
+                   border-width:4px;
+                   border-radius:10px;
+                   border-color:rgba(255,255,255,30);
+                   font:bold 15px;
+                   color:rgba(0,0,0,150);
+                   padding:6px;
+                   }
+                  
+                   QPushButton:pressed{
+                   background-color:rgba(100,255,100,200);
+                   border-color:rgba(255,255,255,30);
+                   border-style:inset;
+                   color:rgba(0,0,0,100);
+				  font:bold 13px;
+                   }
+                 
+                   QPushButton:hover{
+                   background-color:rgba(100,255,100,100);
+                   border-color:rgba(255,255,255,200);
+                   color:rgba(0,0,0,200);
+                   }</string>
+    </property>
+    <property name="text">
+     <string>.</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_16">
+    <property name="geometry">
+     <rect>
+      <x>305</x>
+      <y>300</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+                   QPushButton{
+                   background-color:rgba(100,225,100,80);
+                   border-style:outset;
+                   border-width:4px;
+                   border-radius:10px;
+                   border-color:rgba(255,255,255,30);
+                   font:bold 15px;
+                   color:rgba(0,0,0,150);
+                   padding:6px;
+                   }
+                  
+                   QPushButton:pressed{
+                   background-color:rgba(100,255,100,200);
+                   border-color:rgba(255,255,255,30);
+                   border-style:inset;
+                   color:rgba(0,0,0,100);
+				  font:bold 13px;
+                   }
+                 
+                   QPushButton:hover{
+                   background-color:rgba(100,255,100,100);
+                   border-color:rgba(255,255,255,200);
+                   color:rgba(0,0,0,200);
+                   }</string>
+    </property>
+    <property name="text">
+     <string>=</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addButton">
+    <property name="geometry">
+     <rect>
+      <x>305</x>
+      <y>250</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+                   QPushButton{
+                   background-color:rgba(100,225,100,80);
+                   border-style:outset;
+                   border-width:4px;
+                   border-radius:10px;
+                   border-color:rgba(255,255,255,30);
+                   font:bold 15px;
+                   color:rgba(0,0,0,150);
+                   padding:6px;
+                   }
+                  
+                   QPushButton:pressed{
+                   background-color:rgba(100,255,100,200);
+                   border-color:rgba(255,255,255,30);
+                   border-style:inset;
+                   color:rgba(0,0,0,100);
+				  font:bold 13px;
+                   }
+                 
+                   QPushButton:hover{
+                   background-color:rgba(100,255,100,100);
+                   border-color:rgba(255,255,255,200);
+                   color:rgba(0,0,0,200);
+                   }</string>
+    </property>
+    <property name="text">
+     <string>+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="subButton">
+    <property name="geometry">
+     <rect>
+      <x>305</x>
+      <y>200</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+                   QPushButton{
+                   background-color:rgba(100,225,100,80);
+                   border-style:outset;
+                   border-width:4px;
+                   border-radius:10px;
+                   border-color:rgba(255,255,255,30);
+                   font:bold 15px;
+                   color:rgba(0,0,0,150);
+                   padding:6px;
+                   }
+                  
+                   QPushButton:pressed{
+                   background-color:rgba(100,255,100,200);
+                   border-color:rgba(255,255,255,30);
+                   border-style:inset;
+                   color:rgba(0,0,0,100);
+				  font:bold 13px;
+                   }
+                 
+                   QPushButton:hover{
+                   background-color:rgba(100,255,100,100);
+                   border-color:rgba(255,255,255,200);
+                   color:rgba(0,0,0,200);
+                   }</string>
+    </property>
+    <property name="text">
+     <string>-</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="mulButton">
+    <property name="geometry">
+     <rect>
+      <x>305</x>
+      <y>150</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+                   QPushButton{
+                   background-color:rgba(100,225,100,80);
+                   border-style:outset;
+                   border-width:4px;
+                   border-radius:10px;
+                   border-color:rgba(255,255,255,30);
+                   font:bold 15px;
+                   color:rgba(0,0,0,150);
+                   padding:6px;
+                   }
+                  
+                   QPushButton:pressed{
+                   background-color:rgba(100,255,100,200);
+                   border-color:rgba(255,255,255,30);
+                   border-style:inset;
+                   color:rgba(0,0,0,100);
+				  font:bold 13px;
+                   }
+                 
+                   QPushButton:hover{
+                   background-color:rgba(100,255,100,100);
+                   border-color:rgba(255,255,255,200);
+                   color:rgba(0,0,0,200);
+                   }</string>
+    </property>
+    <property name="text">
+     <string>×</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="divButton">
+    <property name="geometry">
+     <rect>
+      <x>305</x>
+      <y>100</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+                   QPushButton{
+                   background-color:rgba(100,225,100,80);
+                   border-style:outset;
+                   border-width:4px;
+                   border-radius:10px;
+                   border-color:rgba(255,255,255,30);
+                   font:bold 15px;
+                   color:rgba(0,0,0,150);
+                   padding:6px;
+                   }
+                  
+                   QPushButton:pressed{
+                   background-color:rgba(100,255,100,200);
+                   border-color:rgba(255,255,255,30);
+                   border-style:inset;
+                   color:rgba(0,0,0,100);
+				  font:bold 13px;
+                   }
+                 
+                   QPushButton:hover{
+                   background-color:rgba(100,255,100,100);
+                   border-color:rgba(255,255,255,200);
+                   color:rgba(0,0,0,200);
+                   }</string>
+    </property>
+    <property name="text">
+     <string>÷</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>360</y>
+      <width>390</width>
+      <height>160</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>490</y>
+      <width>41</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>清空</string>
+    </property>
+   </widget>
+   <zorder>pushButton_4</zorder>
+   <zorder>clearButton</zorder>
+   <zorder>pushButton_2</zorder>
+   <zorder>pushButton_3</zorder>
+   <zorder>num7Button</zorder>
+   <zorder>num8Button</zorder>
+   <zorder>num9Button</zorder>
+   <zorder>num4Button</zorder>
+   <zorder>num5Button</zorder>
+   <zorder>num6Button</zorder>
+   <zorder>label</zorder>
+   <zorder>num1Button</zorder>
+   <zorder>num2Button</zorder>
+   <zorder>num3Button</zorder>
+   <zorder>num0Button</zorder>
+   <zorder>pushButton_15</zorder>
+   <zorder>pushButton_16</zorder>
+   <zorder>addButton</zorder>
+   <zorder>subButton</zorder>
+   <zorder>mulButton</zorder>
+   <zorder>divButton</zorder>
+   <zorder>textBrowser</zorder>
+   <zorder>pushButton</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>410</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="action"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action">
+   <property name="text">
+    <string>保存历史记录</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
